@@ -1,5 +1,104 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/* fonts 
+font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+body {
+	position: relative;
+}
+
+
+h1 {}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+
+/* header */
+header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.topbar {
+	color: #FAF8F6;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	background-color: #1e1e1e;
+	text-align: center;
+	padding: 1em;
+}
+
+.menu {
+	padding: 1em;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+}
+
+.menu > img {
+	width: 10em;
+	height: 100%;
+}
+
+/*
+header > img {
+	width: 10em;
+	height: 100%;
+
+}
+*/
+
+
+/* navigatie */
+
+.navigatie {
+	margin-top: 5em;
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding-left: 0;
+	min-width: 100vw;
+	background-color: #f9f6f4;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+
+.navigatie > li {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #1e1e1e;
+	list-style: none;
+	text-align: center;
+	padding: 1em;
+	
+}
+
+a {
+	color: #1e1e1e;
+	text-decoration:none;
+}
+a:visited {
+	color: #1e1e1e;
 }
 
