@@ -138,6 +138,9 @@ button {
 	
 } 
 
+button:last-of-type {
+ flex-grow: 2;
+}
 
 .buttons {
 	margin: 0 1em 1em 1em;
