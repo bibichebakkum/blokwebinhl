@@ -28,7 +28,7 @@ h2 {
 	font-weight: 700;
 	font-size: 1.2em;
 	text-align: center;
-	margin: 0px 0px 10px;
+	margin: 1em 0 0.8em;
 }
 
 p {
@@ -114,11 +114,8 @@ a:visited {
 
 .headerfoto {
 	width: 100%;
-	margin-bottom: 1em;
 
 }
-
-
 
 
 .section1 {
@@ -130,25 +127,40 @@ button {
 	font-weight: 600;
 	font-size: 0.6;
 	margin: 0.5em 0.2em 0 0.2em;
-	padding: 0.7em 2.1em;
-	border-radius: 0;	
+	padding: 0.8em 2.2em;
+	border-radius: 0;
 	background-color: transparent;
 	border: 1px solid black;
 	flex-grow: 1;
-	
-} 
+
+}
 
 button:last-of-type {
- flex-grow: 2;
+	flex-grow: 2;
 }
 
 .buttons {
 	margin: 0 1em 1em 1em;
-	display: flex;	
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	
+
 }
 
 
+.section2 {
+	margin: 2.5em 1em 1em 1em;
+	position: relative;
+}
 
+.section2 > img {
+	width: 100%;
+}
+
+
+.shopnu {
+	width: 12em;
+	position: absolute;
+	left:calc(50% - 6em);
+	
+}
