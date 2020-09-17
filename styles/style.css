@@ -34,11 +34,18 @@ h2 {
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	text-align: center;
 	margin-bottom: 1em;
 }
 
+a {
+	color: #1e1e1e;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 0.9em;
+	
+}
 
 /* header */
 header {
@@ -100,7 +107,7 @@ header {
 
 }
 
-a {
+li > a {
 	color: #1e1e1e;
 	text-decoration: none;
 }
@@ -118,8 +125,13 @@ a:visited {
 }
 
 
-.section1 {
-	margin: 0 1em 1em 1em;
+section {
+	margin: 1em 1em 2.5em 1em;
+	position: relative;
+}
+
+section > img {
+	width: 100%;
 }
 
 button {
@@ -140,7 +152,6 @@ button:last-of-type {
 }
 
 .buttons {
-	margin: 0 1em 1em 1em;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -148,19 +159,77 @@ button:last-of-type {
 }
 
 
-.section2 {
-	margin: 2.5em 1em 1em 1em;
-	position: relative;
-}
-
-.section2 > img {
-	width: 100%;
-}
-
-
-.shopnu {
+.enkel {
 	width: 12em;
 	position: absolute;
-	left:calc(50% - 6em);
+	left: calc(50% - 6em);
+	bottom: -5em;
+
+}
+
+.section3 {
+	margin-top: 7em;
+}
+
+.section3 > ul {
+	list-style: none;
+	text-align: center;
+	line-height: 2em;
+	padding-left: 0;
+	margin-top: 4em;
+}
+
+hr {
+	width: 4em;
+	border-top: 3px solid black;
+	position: absolute;
+	left: calc(50% - 2em);
+}
+
+footer > section {
+	background-color: white;
+	position: relative;
+	padding: 4em 4.5em;
+	margin: 1em 0 0;
+}
+
+
+form {
+	margin-top: 4em;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+label {
+	font-size: 1.2em;
+	font-weight: 500;
 	
+}
+
+input[type=text] {
+	height: 3.5em;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 1em;
+	font-weight: 500;
+	background-color: white;
+	border: 1px solid black;
+	padding-left: 1em;
+	margin: 0.7em 0;
+}
+
+input[type=submit] {
+	height: 3.5em;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 1em;
+	font-weight: 500;
+	background-color: white;
+	border: 1px solid black;
+	margin: 0.7em 0;
+}
+
+footer > section:last-of-type {
+	background-color: #e5e1dc;
+	margin:0;
+	padding: 1em;
 }

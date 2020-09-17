@@ -46,7 +46,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Agenda punten:
+- Hoe kan je een border en breedte meegeven?
+- Flexbox: buttons & justify-content
+- Kan een button in een section?
+- Instagram of gewoon afbeeldingen
+- order-left niet doorlaten lopen
+- Form stylen css
 
 ### Verslag van meeting
 
