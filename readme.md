@@ -30,7 +30,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+
+
+**Screenshot(s):**
+
+![](images/screenweek2.1.png)
+![](images/screenweek2.2.png)
+![](images/screenweek2.3.png)
+
+### Agenda voor meeting
+
+Agenda punten:
+- centreren van een element die nergens naar luistert
+- Filter met responsive
+- grid met afbeeldingen en tekst
+
+### Verslag van meeting
+
+
 
 
 
@@ -38,11 +57,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Wat er goed ging is: Goed begin gemaakt begin alles weer langzaam te begrijpen.
+
+Aan werken: dingen centreren en knoppen formulier goed krijgen
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![](images/screenweek1.png)
 
 ### Agenda voor meeting
 
@@ -56,7 +77,8 @@ Agenda punten:
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Duidelijk hoe we nu verder kunnen. Werken aan die knoppen. 
+Centreren met margin: auto;
 
 
 
