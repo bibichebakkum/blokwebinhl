@@ -24,15 +24,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
 
+**Screenshot(s):**
 
+![](images/screenweek3.png)
+
+### Agenda voor meeting
+
+Agenda punten:
+- Bij responsive maken afbeeldingen verkleiner maar centreren dan niet meer.
+- nog steeds bezig met het filter/grid op de tweede pagina.
+
+### Verslag van meeting
+Helaas niet aanwezig kunnen zijn door persoonlijke omstandigheden...
 
 ## Voortgang 2 (week 5)
 
 ### Stand van zaken
-
-
 
 **Screenshot(s):**
 
@@ -48,9 +56,9 @@ Agenda punten:
 - grid met afbeeldingen en tekst
 
 ### Verslag van meeting
-
-
-
+- op een ander element de grid doen dan werkt het wel.
+- Nog steeds uitvogelen hoe ik het formulier goed kan stylen.
+- filter ook met een grid.
 
 
 ## Voortgang 1 (week 3)

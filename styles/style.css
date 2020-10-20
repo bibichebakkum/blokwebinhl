@@ -218,14 +218,14 @@ fieldset {
 }
 
 fieldset:first-of-type {
-	max-width: 24em;
+	max-width: 22em;
 	margin: auto;
 }
 
 label {
 	font-size: 1em;
 	font-weight: 500;
-	margin-right: 5em;
+	margin-right: 4em;
 }
 
 input[type=text] {
@@ -258,6 +258,10 @@ input[type=submit] {
 	background-color: white;
 	border: 1px solid black;
 	margin: 0.7em 0;
+}
+
+form > p {
+	display: none;
 }
 
 footer > section:nth-of-type(2) {
@@ -339,7 +343,7 @@ article > img:nth-of-type(2) {
 /* Responsive */
 
 @media (min-width:50em) {
-	
+
 	.artikelen {
 		width: 90%;
 		display: grid;
@@ -370,6 +374,10 @@ article > img:nth-of-type(2) {
 		display: block;
 	}
 
+	.hide {
+		display: none;
+	}
+
 	.naastelkaar {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -379,11 +387,48 @@ article > img:nth-of-type(2) {
 
 }
 
-@media (min-width:65em) { 
+@media (min-width:65em) {
 
-	
+
 	.section3 > ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+
+	form {
+		max-width: 35em;
+	}
+	form > p {
+		display: block;
+	}
+
+	
+fieldset:first-of-type {
+	max-width: 35em;
+	margin: auto;
+}
+	
+	label {
+	font-size: 1em;
+	font-weight: 500;
+	margin-right: 1em;
+}
+
+input[type=checkbox] {
+	width: 20px;
+	height: 20px;
+	border-radius: 0;
+	margin: 0 0.5em 1em 0;
+}
+	
+	input[type=submit] {
+	width: 10em;
+	height: 2.7em;
+}
+	input[type=text] {
+		height: 2.7em;
+	width: 22em;
+	margin-right: 1em;
+	}
+	
 }
