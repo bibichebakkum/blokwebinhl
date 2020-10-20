@@ -10,6 +10,7 @@
 font-family: 'Libre Baskerville', serif;
 font-family: 'Montserrat', sans-serif;
 */
+
 body {
 	position: relative;
 	background-color: #FAF8F6;
@@ -68,7 +69,7 @@ header {
 	z-index: 1;
 }
 
-div:first-of-type{
+div:first-of-type {
 	color: #FAF8F6;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -87,6 +88,7 @@ div:nth-of-type(2) {
 }
 
 }
+
 div:nth-of-type(2) > img {
 	width: 10em;
 	height: 100%;
@@ -140,9 +142,7 @@ a:visited {
 
 .headerfoto {
 	width: 100%;
-
 }
-
 
 section {
 	margin: 1em 1em 2.5em 1em;
@@ -173,6 +173,8 @@ button {
 .buttons {
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 28em;
+	margin: 0 auto;
 }
 
 .enkel {
@@ -204,17 +206,26 @@ footer > section:first-of-type {
 	margin: 1em 0 0;
 }
 
-
+/* formulier */
 form {
-	margin-top: 4em;
 	font-family: 'Montserrat', sans-serif;
+	max-width: 30em;
+	margin: 4em auto;
+}
 
+fieldset {
+	border: none;
+}
+
+fieldset:first-of-type {
+	max-width: 24em;
+	margin: auto;
 }
 
 label {
 	font-size: 1em;
-	font-weight: 600;
-
+	font-weight: 500;
+	margin-right: 5em;
 }
 
 input[type=text] {
@@ -232,6 +243,9 @@ input[type=text] {
 input[type=checkbox] {
 	width: 20px;
 	height: 20px;
+	border-radius: 0;
+	margin: 0 0.5em 1em 0;
+
 }
 
 
@@ -261,6 +275,7 @@ footer > section:last-of-type {
 	background-color: #e5e1dc;
 	margin: 0;
 	padding: 1em;
+	max-height: 3em;
 }
 
 
@@ -323,40 +338,52 @@ article > img:nth-of-type(2) {
 
 /* Responsive */
 
-@media (min-width:62em) {
+@media (min-width:50em) {
+	
 	.artikelen {
-	width: 90%;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 0.5em;
-	margin: 2em auto;
-}
-	.filter {
-	display: none;
+		width: 90%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 0.5em;
+		margin: 2em auto;
+	}
 
-}
+	.filter {
+		display: none;
+
+	}
 
 	div:nth-of-type(2) {
-	padding: 1em;
-	background-color: #fff;
-	display: flex;
-	justify-content: left;
-}
-.buttons {
-	max-width: 40em;
-	margin: 0 auto;
-}
+		padding: 1em;
+		background-color: #fff;
+		display: flex;
+		justify-content: left;
+	}
+
+	.buttons {
+		max-width: 40em;
+		margin: 0 auto;
+	}
 
 
-.noshow {
-	display: block;
+	.noshow {
+		display: block;
+	}
+
+	.naastelkaar {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1em;
+		margin: 2em 3em;
+	}
+
 }
 
-.naastelkaar{
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 1em;
-margin: 2em 3em;
-}
+@media (min-width:65em) { 
+
 	
+	.section3 > ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
