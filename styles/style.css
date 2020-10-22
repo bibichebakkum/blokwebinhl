@@ -218,14 +218,14 @@ fieldset {
 }
 
 fieldset:first-of-type {
-	max-width: 22em;
+	max-width: 20em;
 	margin: auto;
 }
 
 label {
 	font-size: 1em;
 	font-weight: 500;
-	margin-right: 4em;
+	margin-right: 3em;
 }
 
 input[type=text] {
