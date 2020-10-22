@@ -58,7 +58,7 @@ Agenda punten:
 ### Verslag van meeting
 - op een ander element de grid doen dan werkt het wel.
 - Nog steeds uitvogelen hoe ik het formulier goed kan stylen.
-- filter ook met een grid.
+- filter ook met een grid. 
 
 
 ## Voortgang 1 (week 3)
