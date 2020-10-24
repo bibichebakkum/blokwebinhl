@@ -15,7 +15,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Wat ik vooral erg lastig vond is dat ik veel classes heb gebruikt en die er nu allemaal uit moest halen in de css. Ook javascript is iets waar ik altijd mee gestruggled heb. Maar na een middagje er in verdiepen is het mij toch redelijk gelukt. 
 
 **Screenshot(s):**
 
@@ -35,6 +35,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Agenda punten:
 - Bij responsive maken afbeeldingen verkleiner maar centreren dan niet meer.
 - nog steeds bezig met het filter/grid op de tweede pagina.
+- Formulier nog steeds niet goed
 
 ### Verslag van meeting
 Helaas niet aanwezig kunnen zijn door persoonlijke omstandigheden...
