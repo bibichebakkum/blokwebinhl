@@ -15,7 +15,7 @@ font-family: 'Montserrat', sans-serif;
 body {
 	position: relative;
 	background-color: #FAF8F6;
-	max-width: 120em;
+	max-width: 125em;
 	margin: auto;
 }
 
@@ -104,7 +104,6 @@ body > ul:first-of-type {
 	left: 0;
 	right: 0;
 	padding-left: 0;
-	min-width: 100vw;
 	background-color: #f9f6f4;
 	display: flex;
 	justify-content: center;
@@ -165,6 +164,9 @@ section > img {
 main > section:nth-of-type(3) > img:nth-of-type(2) {
 	display: none;
 }
+main > section:nth-of-type(5) > img:nth-of-type(2) {
+	display: none;
+}
 
 button {
 	font-family: 'Montserrat', sans-serif;
@@ -206,7 +208,8 @@ button > a:hover {
 	color:white;
 	border:none;
 }
-.buttons {
+
+main > section:nth-of-type(2) {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 28em;
@@ -221,7 +224,7 @@ button > a:hover {
 	bottom: -5em;
 }
 
-.section3 > ul {
+main > section:nth-of-type(6) > ul {
 	list-style: none;
 	text-align: center;
 	line-height: 2em;
@@ -392,6 +395,7 @@ article > img:nth-of-type(2) {
 article > img:nth-of-type(2).verander {
 	background: #9b7c45;
 	border-radius: 8px;
+	width: 25px;
 }
 
 .filtergroot {
@@ -403,8 +407,9 @@ article > img:nth-of-type(2).verander {
 @media (min-width:50em) {
 	
 	section > img {
-		max-width: 50em;
+		max-width: 60em ;
 		margin: auto;
+		display: block;
 	}
 	
 	.artikelen {
@@ -415,7 +420,7 @@ article > img:nth-of-type(2).verander {
 		margin: 2em auto;
 	}
 
-	.kolom3 {
+	.pagina2 > section:first-of-type {
 		display: grid;
 		grid-template-columns: 1fr 5fr;
 	}
@@ -461,7 +466,7 @@ article > img:nth-of-type(2).verander {
 		justify-content: left;
 	}
 
-	.buttons {
+	main > section:nth-of-type(2){
 		max-width: 40em;
 		margin: 0 auto;
 	}
@@ -470,16 +475,21 @@ article > img:nth-of-type(2).verander {
 	main > section:nth-of-type(3) > img:nth-of-type(2){
 		display: block;
 	}
+	
+	main > section:nth-of-type(5) > img:nth-of-type(2) {
+	display: block;
+}
 
-	.hide {
+	main > section:nth-of-type(5) > img:first-of-type {
 		display: none;
 	}
 
-	.naastelkaar {
+	main > section:nth-of-type(3) {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1em;
 		margin: 2em 3em;
+		width: 90%
 	}
 
 }
@@ -487,13 +497,21 @@ article > img:nth-of-type(2).verander {
 @media (min-width:65em) {
 
 	section>img {
-		max-width: 65em;
+		max-width: 90em;
 		margin: auto;
 	}
+	
+	main > section:nth-of-type(3) {
+		max-width: 90em;
+		margin: 2em auto;
+	}
+	
 
-	.section3 > ul {
+	main > section:nth-of-type(6) > ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+		max-width: 90em;
+		margin: 4em auto;
 	}
 
 	form {

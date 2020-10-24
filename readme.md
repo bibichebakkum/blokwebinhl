@@ -6,10 +6,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
 
+1. DLO - lessen 
+2. https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
+3. https://css-tricks.com/the-checkbox-hack/
+4. https://www.w3schools.com/html/html_forms.asp
 
 
 ## Eindgesprek (week 7/8)
@@ -19,8 +20,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
-
+![](images/eindresultaat1.png)
+![](images/eindresultaat2.png)
 
 ## Voortgang 3 (week 6)
 
