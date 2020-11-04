@@ -152,8 +152,9 @@ main > img:first-of-type {
 /* Foto van de winkel */
 main > img:nth-of-type(2) {
 	width: 100%;
-	margin: auto;
-	margin: 1em 1em 2.5em 1em
+	margin: 1em auto;
+	padding: 1em;
+	display: block;
 }
 
 /* Styling voor de sections */
