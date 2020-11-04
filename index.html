@@ -9,65 +9,71 @@
 	<title>Scotch &amp; Soda </title>
 
 	<link href="styles/style.css" rel="stylesheet">
+	<!--CSS-->
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	<!--Gebruikte fonts-->
 
 </head>
 
 <body>
-
-
 	<header>
-		<div class="topbar"> Gratis bezorgen vanaf &euro;50,-</div>
+		<!--Top bar-->
+		<div> Gratis bezorgen vanaf &euro;50,-</div>
 		<div class="menu">
+			<!--Menu items; logo en zoek icon-->
 			<img src="images/logo.svg" alt="Scotch & soda">
 			<img src="images/zoek.svg" alt="zoek icoon">
 		</div>
-
 	</header>
 
-	<ul class="navigatie">
-		<li><a href="">Dames</a></li>
-		<li><a href="">Heren</a></li>
-		<li><a href="">Meisjes</a></li>
-		<li><a href="">Jongens</a></li>
+	<ul>
+		<!--Navigatie voor pagina's-->
+		<li><a href="kleding.html">Dames</a></li>
+		<li><a href="kleding.html">Heren</a></li>
+		<li><a href="kleding.html">Meisjes</a></li>
+		<li><a href="kleding.html">Jongens</a></li>
 	</ul>
 
 	<main>
-
-		<img class="headerfoto" src="images/fotoheader.jpg" alt="header foto">
-
+		<!--Grote foto boven aan pagina-->
+		<img src="images/fotoheader.jpg" alt="Twee mensen">
 		<section>
 			<h2>In volle bloei</h2>
 			<p>Kleurrijke bloemen geven traditionele folkloristische prints nieuwe goede vibes</p>
+			<div>
+				<!--Buttons 3 bij elkaar. div is nodig om ze anders te stylen door middel van flexbox-->
+				<button>Shop dames</button>
+				<button>Shop heren</button>
+				<button>Bekijk verhaal</button>
+			</div>
 		</section>
-
-		<section class="buttons">
-			<button><a href="kleding.html">Shop dames</a></button>
-			<button><a href="kleding.html">Shop heren</a></button>
-			<button>Bekijk verhaal</button>
-		</section>
-
-
-		<section class="naastelkaar">
-			<img src="images/foto2.jpg" alt="vrouw in jurk">
-			<img class="noshow" src="images/foto4.jpg" alt="vrouw met hoodie">
-		</section>
-		<h2>De look voor elke gelegenheid</h2>
-		<p>Je nieuwe herfstlook voor naar werk en in het wekend met door folk ge&iuml;nspireerde jurken.</p>
-		<button class="enkel">Shop nu</button>
 
 		<section>
-			<img src="images/winkel.png">
+			<!--Div zorgt ervoor dat de afbeeldingen naast elkaar komen-->
+			<div>
+				<img src="images/foto2.jpg" alt="vrouw in jurk">
+				<!--Deze foto alleen zichtbaar bij @media (min-width:50em)-->
+				<img class="noshow" src="images/foto4.jpg" alt="vrouw met hoodie">
+			</div>
+			<h2>De look voor elke gelegenheid</h2>
+			<p>Je nieuwe herfstlook voor naar werk en in het wekend met door folk ge&iuml;nspireerde jurken.</p>
+			<!--Enkele button-->
+			<button class="enkel">Shop nu</button>
 		</section>
+
+		<img src="images/winkel.png" alt="foto van de winkel">
 
 		<section>
 			<h2>#ScotchOnMe</h2>
 			<p>Outhentieke inspiratie, speciaal samengesteld. Shop de schoonheid achter onze Instagram-feed met slechts één klik.</p>
 			<img class="hide" src="images/instagram.png" alt="instagram foto's">
+			<!--Deze foto alleen zichtbaar bij @media (min-width:50em)-->
 			<img class="noshow" src="images/instagram2.png" alt="instagram foto's">
+			<!--Enkele button-->
 			<button class="enkel">Bekijk alles</button>
 		</section>
 
+		<!--Lijst met snelkoppelingen naar pagina's-->
 		<section class="section3">
 			<h2>Currently trending</h2>
 			<hr>
@@ -87,40 +93,49 @@
 				<li><a href="">Barfly</a></li>
 			</ul>
 		</section>
-		<footer>
 
+		<!--Footer-->
+		<footer>
 			<section>
 				<h2>Blijf op de hoogte</h2>
 				<hr>
+				<!--Formulier inschrijven nieuwsbrief-->
 				<form>
+					<!--Alleen zichtbaar bij @media (min-width:50em)-->
 					<p> 10% korting op je volgende bestelling plus de laatste nieuwtjes en acties rechtstreeks in je inbox. Je hoeft je alleen maar even aan te melden. Laat ons precies weten wat jij wil zien door hieronder je voorkeuren in te stellen. </p>
+
 					<fieldset>
+						<!--Aangeven welke categorieën te ontvangen-->
 						<input type="checkbox" id="dames">
 						<label for="dames"> Dames </label>
-						<input type="checkbox">
+						<input type="checkbox" id="heren">
 						<label for="heren"> Heren </label>
-						<input type="checkbox">
+						<input type="checkbox" id="meisjes">
 						<label for="meisjes"> Meisjes </label>
-						<input type="checkbox">
+						<input type="checkbox" id="jongens">
 						<label for="jongens"> Jongens </label>
 					</fieldset>
 					<fieldset>
+						<!--e-mail adres invoeren-->
 						<input type="text" name="mail" placeholder="Je e-mailadres">
 						<input type="submit" value="Schrijf je nu in">
 					</fieldset>
 				</form>
-<!-- 
+			</section>
+			<!-- Gebruikte bronnen voor formulier:
 https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
 https://css-tricks.com/the-checkbox-hack/
 https://www.w3schools.com/html/html_forms.asp 
 -->
-				
-			</section>
 			<section>
+				<!--Terug naar bovenkant pagina-->
 				<img src="images/uparrow.svg" alt="up">
-				<p>Terug naar boven</p>
+				<h3>Terug naar boven</h3>
 			</section>
+
 			<section>
+				<h3>Onze socials:</h3>
+				<!--Social media iconen-->
 				<img src="images/facebook.svg" alt="facebook">
 				<img src="images/instagram.svg" alt="instagram">
 				<img src="images/pinterest.svg" alt="pinterest">
@@ -129,6 +144,8 @@ https://www.w3schools.com/html/html_forms.asp
 			</section>
 		</footer>
 	</main>
+
+	<!--Javascript-->
 	<script src="scripts/script.js"></script>
 
 </body>

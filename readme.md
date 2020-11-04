@@ -12,6 +12,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. https://css-tricks.com/the-checkbox-hack/
 4. https://www.w3schools.com/html/html_forms.asp
 
+## Herkansing
+
+Voor de herkansing heb ik een aantal dingen aangepast:
+
+index.html:
+- Ik heb meer comments toegevoegd en code beter toegelicht.
+- Foutmeldingen gecheckt en opgelost.
+- Bij het formulier id toegevoegd zodat het nu juist is.
+
+kleding.html:
+- Ipv een section een aside gebruikt voor het filter.
+- Formulier van het filter gemaakt zodat het klopt met de input.
+- Ik heb meer comments toegevoegd en code beter toegelicht.
+- h3 uit de ul gehaalt.
+- Foutmeldingen gecheckt en opgelost.
+
+css:
+- Al het nodige aangepast. Nummering sections klopte niet meer. Ook zijn er nieuwe elementen toegevoegd om de website te krijgen zoals het hoort. 
+- Nagelopen en onnodige wit ruimtes er uit gehaald.
+
+script.js:
+- Console.log er uit gehaald
+- Andere naamgeving gebruikt.
+- Het hartje wordt nu volledig gevuld.
 
 ## Eindgesprek (week 7/8)
 
